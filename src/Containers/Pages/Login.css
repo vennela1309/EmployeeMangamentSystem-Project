@@ -1,0 +1,57 @@
+.loginMainContainer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height:100vh; 
+}
+.MainHeading{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FormContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 33%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        max-width: 500px;
+        min-height: 500px;
+   
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    min-width: 350px;
+    
+
+}
+.inpustStyle{
+    height: 35px;
+    
+}
+.LoginBtnStyles{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    margin-left: 110px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.loginHeading{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15%;
+}
